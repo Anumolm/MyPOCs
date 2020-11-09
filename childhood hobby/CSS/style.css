@@ -1,0 +1,70 @@
+body{
+    background: url("../images/background.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+}   
+header, footer{
+    position:fixed;
+    left:0px;
+    width:100%;
+    padding:15px;
+}
+header{
+    min-height:60px;   
+    top:0px;
+    background-color:rgba(240, 27, 27, 0.7);
+    text-align: center;
+    padding-top: 30px;
+    font-size:170%;
+}
+footer{
+    bottom:0px;
+    background-color: #cccccc;
+    border-top: 1px solid black;
+    min-height:30px;  
+    font-size:80%; 
+    color: rgba(100, 24, 24, 0.7);
+}
+button{
+    background-color: navy;
+    border-color: navy;
+    border-radius:15px;
+    color:white;
+}
+
+.main_container{    
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 25px;    
+    padding:15px;
+    margin-top: 130px;
+}
+.model_images .card{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row; 
+}
+.card{
+    width:31%;
+    text-align:justify;
+    border: black solid 2px;
+    float: left;
+    margin: 10px;
+    min-height: 275px;
+}
+
+.card img{
+    max-width: 50%;
+}
+.card .container{
+    padding:10px;
+}
+.card:nth-child(odd){
+    background-color: black;
+}
+.card:nth-child(even){
+    background-color: rgb(212, 34, 34);
+    }
+.references a{
+ color: white;
+}
