@@ -53,6 +53,9 @@ h2{
   font-size:45px;
 }
 
+table th{
+	background-color: white;
+}
 .content-wrap{
   max-width: 970px;
   margin: 0 auto;
