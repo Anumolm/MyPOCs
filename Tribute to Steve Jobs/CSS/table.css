@@ -1,0 +1,19 @@
+thead tr th:first-child,
+tbody tr td:first-child {
+  width: 8em;
+  min-width: 8em;
+  max-width: 8em;
+  word-break: break-all;
+}
+
+#nutshell table tbody tr:not(:nth-last-child(1)) {
+    border-bottom: 1px solid white;
+}
+
+#nutshell table tbody tr td{    
+    padding: 15px 0px;
+}
+
+#nutshell td ul{
+    padding-left: 20px;
+}
